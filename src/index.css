@@ -5,3 +5,43 @@
   margin: 0;
   padding: 0;
 }
+
+/*
+================
+Variables
+===============
+*/
+
+:root {
+  --spacing: 0.1rem;
+  --clr-pink: #f26cb3;
+}
+
+/* 
+===============
+Global
+===============
+*/
+
+body {
+  background-color: var(--clr-pink);
+}
+
+/*
+==============
+Main
+=============
+*/
+.container {
+  width: 90vw;
+  background-color: white;
+}
+
+.person {
+}
+.person img {
+  object-fit: cover;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}

@@ -9,6 +9,7 @@ function App() {
       <main>
         <section className="container">
           <List people={people} />
+          <button onClick={() => setPeople([])}>Clear List</button>
         </section>
       </main>
     </>
